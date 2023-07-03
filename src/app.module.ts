@@ -6,4 +6,4 @@ import { ItemsModule } from './items/items.module';
   controllers: [],
   providers: [],
 })
-export class AppModule { }
+export class AppModule {}
