@@ -8,7 +8,7 @@ export class ItemsController {
   constructor(private readonly itemService: ItemsService) {}
 
   @Get()
-  findAll(): string {
+  findAll(): Item[] {
     return this.itemService.findAll();
   }
 
